@@ -45,3 +45,38 @@
 #print("\n") # newline
 #print("\t") # tab
 #print("\\") # \
+
+name = "Chuck"
+number = 100
+newNumber = "100"
+
+print(number/2)
+
+print(int(newNumber)/2)
+
+myFloat = 3.54
+
+num1 = 100
+num2 = 75
+num3 = 967
+
+avg= (num1 + num2 + num3)/3
+
+print(f"Average: {avg}")
+print(avg)
+print("Average ", avg)
+print("Average " + str(avg))
+
+beds=10
+bath=5
+address = "435 Cool Ln"
+city="Folsom"
+zip =95630
+rent = 20000
+
+print(f"House for rent at {address} in {city}({zip})")
+print(f"\t{beds} bedrooms, {bath} bathooms")
+print((f"\t rent is ${rent}/ month"))
+
+# File path example
+print("I have a file located at: C: \\Users\\Edwin\\Documents\\OneNote Notebooks")
